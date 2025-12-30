@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jude Felstead Graphic Design</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #222;
+            color: #f5e3c6;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .container {
+            display: flex;
+            min-height: 90vh;
+        }
+ 
+        .left {
+            width: 30%;
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        .left img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 20%;
+            border: 5px solid #f5e3c6;
+            margin-bottom: 15px;
+        }
+ 
+        .left p {
+            font-style: italic;
+        }
+
+        a {
+             color: #f5d3b6;
+        }
+ 
+        .center {
+            width: 70%;
+            padding: 40px;
+            background-image: linear-gradient(to bottom, #5e494c, #333);
+            overflow: auto; /* Add this to enable scrolling */
+            max-height: 90vh; /* Optional: to limit the height */
+}
+ 
+ 
+        .center ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+ 
+        .center ul li {
+            background: rgba(245, 227, 198, 0.2);
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .center img {
+            display: block; 
+            margin: 0 auto; 
+          
+            border: 3px solid #f5e3c6;
+}
+ 
+        .marquee-container {
+            width: 100%;
+            background-color: #222;
+            position: fixed;
+            bottom: 0;
+            padding: 10px 0;
+            text-align: center;
+        }
+ 
+        .marquee {
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            animation: scroll 20s linear infinite;
+            
+       
+    
+        }
+ 
+        @keyframes scroll {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        .marquee-images {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Container -->
+        <div class="left">
+            <img src="img/jude with glass2.jpg" alt="Profile Picture">
+            <h1>About Me</h1>
+            <p>Jude Felstead is a Los Angeles based graphic designer from Canada. He mainly works on his website, music, youtube channel, and graphic design. He took graphic design class for 3 years and is self-taught in coding. He's made posters for <a href="https://antonialassar.com/" target="_blank">Antonia Lassar</a> and <a href="https://davidreshef.bandcamp.com/music">David Reshef</a>... no one else, yet. <br><br>$15 per design, first design for $6!
+            </p>
+        </div>
+ 
+        <!-- Center Container -->
+        <div class="center">
+            <h1>Portfolio</h1>
+            <p>A collection of Jude's graphic works, if you want to see his web designs or art, go to <a href="https://judefelstead.com">judefelstead.com</a></p>
+          <marquee behavior="scroll" direction="left">
+  <span class="marquee-images">
+    <img src="img/businesscard1.png" height="220" />
+    <img src="img/postercathedrals.png"  height="220" />
+      <img src="img/new world album art caps cool.png"  height="220" />
+        <img src="img/BOULING!.png"  height="220" />
+         <img src="img/poster1.png"  height="220" />
+          <img src="img/poster2.png"  height="220" />
+          <img src="img/Kyoto Time Loop.png"  height="220" />
+          <img src="img/Newworldposter1.png"  height="220" />
+           <img src="img/13blur.png"  height="220" />
+           <img src="img/alakegdpfpSPIRAL.png"  height="220" />
+           <img src="img/archicon.gif"  height="220" />
+            <img src="img/Daved Warchef.png"  height="220" />
+             <img src="img/EEAAO4.png"  height="220" />
+         <img src="img/equisiteheat2.png"  height="220" />
+           <img src="img/EXT123!.png"  height="220" />
+            <img src="img/fishy2.png"  height="220" />
+                <img src="img/four.png"  height="220" />
+                   <img src="img/interimstory2.png"  height="220" />
+                     <img src="img/intern1.png"  height="220" />
+                        <img src="img/judeherepfp1roundedblue.png"  height="220" />
+<img src="img/yentastory.png"  height="220" />
+<img src="img/postercathedralssideways1_optimized_1000.png"  height="220" />
+<img src="img/spikes.png"  height="220" />
+<img src="img/WATERMELOON.png"  height="220" />
+<img src="img/yenta2.png"  height="220" />
+            
+  </span>
+</marquee>
+            <br>
+            <h3>Links</h3>
+            <ul>
+                    <li><a href="https://mail.google.com/mail/u/0/?fs=1&to=judefelsteadbusiness@gmail.com&tf=cm">judefelsteadbusiness@gmail.com</a> - Contact me here.</li>
+    <li><a href="https://motormachineorchestra.bandcamp.com">motormachineorchestra.bandcamp.com</a> - Listen to my music</li>
+    <li><a href="https://youtube.com/@judefelstead">youtube.com/@judefelstead</a> - Watch my Youtube channel</li>
+    <li><a href="https://judefelstead.com">judefelstead.com</a> - View my main website</li>
+    <li><a href="https://judefelstead.atabook.org/">judefelstead.atabook.org</a> - Sign the guestbook!</li>
+            </ul>
+        </div>
+    </div>
+ 
+    <!-- Rainbow Marquee -->
+    <div class="marquee-container">
+        <div class="marquee">All first orders 60% off! Every first order now for $6!</div>
+    </div>
+</body>
+</html>
